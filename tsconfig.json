@@ -1,0 +1,10 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "sourceMap": true,
+    "outFile": "static/app.js"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
