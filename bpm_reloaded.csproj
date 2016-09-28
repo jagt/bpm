@@ -29,7 +29,12 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="tsd\p2.d.ts" />
+    <TypeScriptCompile Include="tsd\phaser.d.ts" />
+    <TypeScriptCompile Include="tsd\pixi.d.ts" />
     <TypeScriptCompile Include="src\app.ts" />
+    <TypeScriptCompile Include="src\Duh.ts" />
+    <TypeScriptCompile Include="src\TestNameSpace.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="tsconfig.json" />

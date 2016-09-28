@@ -1,10 +1,14 @@
 {
   "compileOnSave": true,
   "compilerOptions": {
+    "module": "none",
+    //"strictNullChecks": true, // this is broken atm
+    "noImplicitAny": true,
     "sourceMap": true,
     "outFile": "static/app.js"
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "tsd/**/*"
   ]
 }
